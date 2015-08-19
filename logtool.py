@@ -15,25 +15,25 @@ LOG_LEVELS = ['DEBUG','INFO','WARN','ERROR','FATAL']
 
 #配置模块信息
 #keystone
-KEYSTONE_IP = ['10.95.200.179',]
+KEYSTONE_IP = ['10.95.200.179']
 KEYSTONE_USER = 'root'
 KEYSTONE_PASSWD = 'root'
 KEYSTONE_MANAGE = '/var/log/keystone/keystone-manage.log'
 KEYSTONE_MAIN = '/var/log/keystone/main.log'
 #glance
-GLANCE_IP = ['10.95.200.179',]
+GLANCE_IP = ['10.95.200.179']
 GLANCE_USER = 'root'
 GLANCE_PASSWD = 'root'
 GLANCE_API = '/var/log/glance/glance-api.log'
 GLANCE_REGISTRY = '/var/log/glance/glance-registry.log'
 #cinder
-CINDER_IP = ['10.95.200.179',]
+CINDER_IP = ['10.95.200.179']
 CINDER_USER = 'root'
 CINDER_PASSWD = 'root'
 CINDER_API = '/var/log/cinder/cinder-api.log'
 CINDER_SCHEDULER = '/var/log/cinder/cinder-scheduler.log'
 #nova
-NOVA_IP = ['10.95.200.179','10.95.20.66',]
+NOVA_IP = ['10.95.200.179','10.95.20.66']
 NOVA_USER = 'root'
 NOVA_PASSWD = 'root'
 NOVA_API = '/var/log/nova/nova-api.log'
@@ -41,7 +41,7 @@ NOVA_CONDUCTOR = '/var/log/nova/nova-conductor.log'
 NOVA_MANAGE = '/var/log/nova/nova-manage.log'
 NOVA_SCHEDULER = '/var/log/nova/nova-scheduler.log'
 #nova-compute
-NOVA_COMPUTE_IP = ['10.95.20.66',]
+NOVA_COMPUTE_IP = ['10.95.20.66']
 NOVA_COMPUTE_USER = 'root'
 NOVA_COMPUTE_PASSWD = 'root'
 NOVA_COMPUTE = '/var/log/nova/nova-compute.log'
