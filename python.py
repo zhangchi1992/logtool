@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #coding:utf-8
 
+#xixixixi
 #禁用fast forward
 #this is a python exercise
 import paramiko
