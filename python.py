@@ -1,5 +1,7 @@
 #!/usr/bin/python
 #coding:utf-8
+
+#this is a python exercise
 import paramiko
 
 print "input ip address："
