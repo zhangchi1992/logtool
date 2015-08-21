@@ -6,13 +6,11 @@ import getopt
 import paramiko
 import re
 import os
-import string
 from datetime import datetime
 from datetime import timedelta
 
 #配置LOG等级
 LOG_LEVELS = ['DEBUG','INFO','WARN','ERROR','FATAL']
-
 
 #配置模块信息
 #keystone
@@ -233,7 +231,6 @@ def ssh_connect(ip, user, passwd, command):
     ssh.close()
     return log
 
-
 #匹配log文件
 def print_match_logs(log, start_time, end_time, levels, ip):
     f = open(log_path,'a')
@@ -253,7 +250,6 @@ def print_match_logs(log, start_time, end_time, levels, ip):
     f.write("\n")
     f.close()
 
-
 #判断是否设定服务IP地址
 if server_opt:
     log = ssh_connect(server_ip,user,passwd,command)
@@ -263,6 +259,4 @@ else:
     for ip in server_ip:
         log = ssh_connect(ip,user,passwd,command)
         print_match_logs(log, start_time, end_time, levels, ip)
-    os.system(cmd)
-
-    
+    os.system(cmd)    
