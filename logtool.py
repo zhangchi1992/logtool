@@ -87,8 +87,10 @@ except getopt.GetoptError,err:
     print str(err)
     usage()
     sys.exit(1)
-#处理文件名称
+
+#log文件名称
 filename = ''
+
 #解析命令行参数    
 for o,a in opts:
     if o in ("-h","--help"):
