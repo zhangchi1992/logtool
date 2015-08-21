@@ -111,7 +111,7 @@ for o,a in opts:
         time_around = a 
         filename = filename + 'a:' + a + '%'
     if o in ("--server"):
-        s_opt = True
+        server_opt = True
         server_ip = a
         filename = filename + 'server:' + a + '%'
     if o in ("--start"):

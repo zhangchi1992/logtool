@@ -109,7 +109,7 @@ for o,a in opts:
         a_opt = True
         time_around = a
     if o in ("--server"):
-        s_opt = True
+        server_opt = True
         server_ip = a
     if o in ("--start"):
         start_opt = True
